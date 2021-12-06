@@ -54,7 +54,7 @@ It will end up looking like this:
 
 1. ## hookup supabase
 
-   - add blog.js in services directory
+   - add blogs.js in services directory
    - export getBlogs function which calls supabase
    - very similar to getRestaurants in demo
 
