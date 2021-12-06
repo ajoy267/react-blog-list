@@ -67,3 +67,4 @@ It will end up looking like this:
 
 3. do the stuff from last week
    - loop through the blogs state variable and render a BlogCard component for each item in blogs
+     whyDO1needApassword
