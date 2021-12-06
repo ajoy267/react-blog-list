@@ -60,11 +60,10 @@ It will end up looking like this:
 
 2. hookup supabase call to your component
 
-   - create blogs state using userState
+   - create blogs state using useState
    - use useEffect to call getBlogs when the page initially renders
    - set the response from getBlogs as your blogs state
    - console.log to make sure this is all working
 
 3. do the stuff from last week
    - loop through the blogs state variable and render a BlogCard component for each item in blogs
-     whyDO1needApassword
