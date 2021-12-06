@@ -43,11 +43,27 @@ It will end up looking like this:
 | `blogs` state variable created using `useState` with the proper default                    | 1      |
 | `useEffect` correctly calls supabase when the component is first mounted                   | 3      |
 | getBlogs function in `services` folder calls Supabase and retrieves the list of blog posts | 3      |
-| Supabase code is isolated to the services | 1 |
-| each blog is correctly rendered using the `BlogCard` component | 2 |
+| Supabase code is isolated to the services                                                  | 1      |
+| each blog is correctly rendered using the `BlogCard` component                             | 2      |
 
 ### Stretch Goals (worth up to 2 additional points)
 
 - The blogs table has a foreign key relationship to a table called authors -- what this means is each author_id on the blogs table matches up with the id of an author
 - Read [this](https://supabase.com/docs/reference/javascript/select#query-foreign-tables) documentation on querying foreign tables and see if you can include the author's name in your call to supabase
 - Update the BlogCard to include the author's name (you'll need to update the snapshot test when you're done)
+
+1. ## hookup supabase
+
+   - add blog.js in services directory
+   - export getBlogs function which calls supabase
+   - very similar to getRestaurants in demo
+
+2. hookup supabase call to your component
+
+   - create blogs state using userState
+   - use useEffect to call getBlogs when the page initially renders
+   - set the response from getBlogs as your blogs state
+   - console.log to make sure this is all working
+
+3. do the stuff from last week
+   - loop through the blogs state variable and render a BlogCard component for each item in blogs
