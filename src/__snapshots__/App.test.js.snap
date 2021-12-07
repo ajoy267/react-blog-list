@@ -711,6 +711,7 @@ Dolorem quis est in veritatis ipsum est voluptas autem praesentium. Est repudian
             />
           </div>
         </div>
+        ;
         <footer>
           Copyright Alchemy Codelab 2021-2022
         </footer>
@@ -1424,6 +1425,7 @@ Dolorem quis est in veritatis ipsum est voluptas autem praesentium. Est repudian
           />
         </div>
       </div>
+      ;
       <footer>
         Copyright Alchemy Codelab 2021-2022
       </footer>
